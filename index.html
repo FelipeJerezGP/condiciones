@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafío 2 - Condiciones</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Primera parte</h1>
+      <div class="img" id="img"></div>
+
+      <h1>Segunda parte</h1>
+      <div>
+        <div class="container-img">
+          <div class="item">
+            <img src="./assets/img/palta.jpg" class="sticker" alt="Palta" />
+            <input type="number" class="sticker-input" min="0" value="0" />
+          </div>
+
+          <div class="item">
+            <img src="./assets/img/perro.jpg" class="sticker" alt="Perro" />
+            <input type="number" class="sticker-input" min="0" value="0" />
+          </div>
+
+          <div class="item">
+            <img src="./assets/img/pizza.jpg" class="sticker" alt="Pizza" />
+            <input type="number" class="sticker-input" min="0" value="0" />
+          </div>
+        </div>
+        <div class="container-button-output">
+          <p id="sticker-count"></p>
+          <button id="check-stickers" class="check-btn">Verificar</button>
+        </div>
+      </div>
+
+      <h1>Tercera parte</h1>
+      <div>
+        <div class="password-container">
+          <select id="digit1" class="password-select">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+
+          <select id="digit2" class="password-select">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+
+          <select id="digit3" class="password-select">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+
+          <button id="check-password" class="check-btn">Ingresar</button>
+          <p id="password-result"></p>
+        </div>
+      </div>
+    </div>
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
